@@ -15,6 +15,18 @@
     />
     <!-- Stylesheet link -->
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <style>
+      .iframe-class {
+        width:800px; 
+        height:800px;
+      }
+      @media only screen and (max-width: 620px){
+        .iframe-class {
+          width: 80%; 
+          height:400px;
+        }
+      }
+    </style>
 
     <script defer src="../js/index.js"></script>
   </head>
@@ -89,7 +101,7 @@
         </section>
 
         <section>
-          <iframe src="../img/resume.pdf" style='width: 900px; height: 1100px;' class="iframe-class" frameborder="0"></iframe>
+          <iframe src="../img/resume.pdf" class="iframe-class" frameborder="0"></iframe>
         </section>
 
         <!-- Footer-->
