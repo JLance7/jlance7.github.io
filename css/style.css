@@ -324,6 +324,11 @@ h1, h2, h3, p, ul, .project, .skill-div, table, aside, .pdf{
   animation: 0.8s ease-out 0s 1 slideFromLeft;
 } */
 
+.iframe-class {
+  width:800px; 
+  height:800px;
+}
+
 
 /* Media Queries */
 
@@ -483,6 +488,10 @@ h1, h2, h3, p, ul, .project, .skill-div, table, aside, .pdf{
   }
   .resume{
     font-size: 18px;
+  }
+  .iframe-class {
+    width: 80%; 
+    height:400px;
   }
 }
 
