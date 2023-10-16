@@ -489,9 +489,9 @@ h1, h2, h3, p, ul, .project, .skill-div, table, aside, .pdf{
   .resume{
     font-size: 18px;
   }
-  /* .iframe-class {
+  .iframe-class {
     width: 80%; 
     height:400px;
-  } */
+  }
 }
 
