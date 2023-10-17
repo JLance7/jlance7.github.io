@@ -7,6 +7,7 @@ btnNav.addEventListener('click', () => {
 })
 
 const navLinks = document.querySelectorAll('.nav-li')
+let clicked = false
 
 navLinks.forEach( link => {
   link.addEventListener('click', () => {

@@ -191,6 +191,14 @@ aside{
   margin-bottom: 22px;
 }
 
+.experience-li-indent{
+  margin-top: -20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  list-style-type: none;
+}
+
 .experience-li:last-child{
   margin-bottom: 0;
 }
@@ -199,11 +207,12 @@ aside{
 
 .project-column{
   margin-top: 90px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 40px;
+  grid-column-gap: 100px;
   align-items: center;
-  row-gap: 70px;
+  justify-content: center;
 }
 
 .project{
@@ -211,7 +220,8 @@ aside{
   /* flex-basis: 500px; */
   /* width: 500px;
   height: 700px; */
-  max-width: 700px;
+  max-width: 600px;
+  max-height: 600px;
   border-radius: 3%;
   position: relative;
 }
@@ -254,6 +264,12 @@ aside{
   height: 100%;
   alt: 'picture of pong game';
   border: solid #228be6 15px;
+}
+
+.img {
+  width: 20%; 
+  height: 20%; 
+  border: none;
 }
 
 /* Contact Page */
@@ -353,7 +369,14 @@ h1, h2, h3, p, ul, .project, .skill-div, table, aside, .pdf{
     visibility: visible;
     pointer-events: auto;
     transform: translateX(0%);
-    
+  }
+
+  .nav-close nav{
+    transition: all 0.4s;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(0%);
   }
 
   .nav-header-ul{
