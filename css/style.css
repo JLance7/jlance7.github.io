@@ -369,7 +369,16 @@ h1, h2, h3, p, ul, .project, .skill-div, table, aside, .pdf{
     visibility: visible;
     pointer-events: auto;
     transform: translateX(0%);
+    padding: 0;
   }
+
+  /* .nav-open .inner-container-header {
+    height: 100vh;
+    transition: all 0.4s;
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0%);
+  } */
 
   .nav-close nav{
     transition: all 0.4s;
@@ -509,5 +518,6 @@ h1, h2, h3, p, ul, .project, .skill-div, table, aside, .pdf{
   .resume{
     font-size: 18px;
   }
+  
 }
 
